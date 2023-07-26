@@ -25,6 +25,11 @@ nav {
 
 nav img {
   width: 200px;
+  
+}
+nav img:hover{
+  transform: scale(1.1);
+  cursor: pointer;
 }
 
 button {
@@ -80,7 +85,11 @@ header.hero img {
   width: 100%;
   min-width: 300px;
 }
+header.hero img:hover{
+  transform: scale(1.1);
+  cursor: pointer;
 
+}
 /* header.hero section {
   flex: 1;
 } */
