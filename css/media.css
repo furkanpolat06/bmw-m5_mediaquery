@@ -109,6 +109,17 @@ main .card article {
 
 main .card img {
   width: 100%;
+  border-radius: 10px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.432);
+}
+main .card img:hover{
+  translate:2px ;
+  transform: rotateZ(5deg);
+  transition-duration: 1s;
+  cursor: pointer;
+ 
+
+
 }
 main .card h2{
   margin-bottom: 1rem;
